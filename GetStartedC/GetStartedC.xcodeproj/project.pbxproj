@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38B569661E8EAC61002758AF /* allocator.c in Sources */ = {isa = PBXBuildFile; fileRef = 38B569651E8EAC61002758AF /* allocator.c */; };
 		38BA32791E8D5D9B00272D8F /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 38BA32781E8D5D9B00272D8F /* main.c */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +36,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		38B569651E8EAC61002758AF /* allocator.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = allocator.c; sourceTree = "<group>"; };
 		38BA32751E8D5D9B00272D8F /* GetStartedC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GetStartedC; sourceTree = BUILT_PRODUCTS_DIR; };
 		38BA32781E8D5D9B00272D8F /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -78,6 +80,7 @@
 		38BA327F1E8D604300272D8F /* Chapter5-PointersAndArrays */ = {
 			isa = PBXGroup;
 			children = (
+				38B569651E8EAC61002758AF /* allocator.c */,
 			);
 			name = "Chapter5-PointersAndArrays";
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				38BA32791E8D5D9B00272D8F /* main.c in Sources */,
+				38B569661E8EAC61002758AF /* allocator.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
