@@ -10,6 +10,18 @@
 		38BA32791E8D5D9B00272D8F /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 38BA32781E8D5D9B00272D8F /* main.c */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXBuildRule section */
+		380384B51E8D684400613D79 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "";
+		};
+/* End PBXBuildRule section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		38BA32731E8D5D9B00272D8F /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -57,9 +69,17 @@
 		38BA32771E8D5D9B00272D8F /* GetStartedC */ = {
 			isa = PBXGroup;
 			children = (
+				38BA327F1E8D604300272D8F /* Chapter5-PointersAndArrays */,
 				38BA32781E8D5D9B00272D8F /* main.c */,
 			);
 			path = GetStartedC;
+			sourceTree = "<group>";
+		};
+		38BA327F1E8D604300272D8F /* Chapter5-PointersAndArrays */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Chapter5-PointersAndArrays";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +94,7 @@
 				38BA32731E8D5D9B00272D8F /* CopyFiles */,
 			);
 			buildRules = (
+				380384B51E8D684400613D79 /* PBXBuildRule */,
 			);
 			dependencies = (
 			);
@@ -237,6 +258,7 @@
 				38BA327E1E8D5D9B00272D8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
